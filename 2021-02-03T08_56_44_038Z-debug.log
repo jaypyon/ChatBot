@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle chatbot-app@1.0.0~prestart: chatbot-app@1.0.0
+6 info lifecycle chatbot-app@1.0.0~start: chatbot-app@1.0.0
+7 verbose lifecycle chatbot-app@1.0.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle chatbot-app@1.0.0~start: PATH: /usr/share/npm/node_modules/npm-lifecycle/node-gyp-bin:/mnt/e/Projects/ChatBot/ChatBot/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/e/Go/bin:/mnt/c/Users/Scorpion/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/Bandizip/:/mnt/e/Users/Scorpion/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Scorpion/go/bin:/snap/bin
+9 verbose lifecycle chatbot-app@1.0.0~start: CWD: /mnt/e/Projects/ChatBot/ChatBot
+10 silly lifecycle chatbot-app@1.0.0~start: Args: [ '-c', 'node index.js' ]
+11 silly lifecycle chatbot-app@1.0.0~start: Returned: code: 1  signal: null
+12 info lifecycle chatbot-app@1.0.0~start: Failed to exec start script
+13 verbose stack Error: chatbot-app@1.0.0 start: `node index.js`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:198:13)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:198:13)
+13 verbose stack     at maybeClose (internal/child_process.js:982:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+14 verbose pkgid chatbot-app@1.0.0
+15 verbose cwd /mnt/e/Projects/ChatBot/ChatBot
+16 verbose Linux 4.4.0-19041-Microsoft
+17 verbose argv "/usr/bin/node" "/usr/bin/npm" "start"
+18 verbose node v10.19.0
+19 verbose npm  v6.14.4
+20 error code ELIFECYCLE
+21 error errno 1
+22 error chatbot-app@1.0.0 start: `node index.js`
+22 error Exit status 1
+23 error Failed at the chatbot-app@1.0.0 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
